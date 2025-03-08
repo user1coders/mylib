@@ -1,0 +1,41 @@
+b {
+	color: blue;
+}
+
+.window-title-active {
+	background-image: linear-gradient(to top, #aaaaff , #ddddff);
+}
+.window-title-inactive {
+	background-image: linear-gradient(to top, gray , black);
+}
+.strikethrough {
+	text-decoration: line-through;
+}
+.task-word {
+	color: blue; 
+	font-weight: bold;
+}
+.task-time {
+	color: red; 
+	font-size: 14px;
+}
+.task-params {
+	font-style: italic;
+}
+#headerarea {
+	color: blue; 
+	font-size: 14px;
+	font-weight: bold;
+}
+#contentarea {
+    font-family: 'Arial', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	background-color: rgba(220, 220, 220, 0.5);
+}
+#footerarea {
+	color: green; 
+	font-size: 14px;
+	font-weight: bold;
+	background-color: rgba(200, 200, 200, 0.5);
+}
